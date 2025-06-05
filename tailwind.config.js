@@ -10,6 +10,15 @@ module.exports = {
       fontFamily: {
         zain: ['Zain'],
       },
+      animation: {
+        'fade-in': 'fadeIn 2s ease-out forwards',
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+      },
     },
   },
   plugins: [],
