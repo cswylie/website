@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",                   // Output language version
+    "module": "ESNext",                   // Module system
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "jsx": "react-jsx",                   // Use React 17+ JSX transform
+    "strict": true,                      // Enable all strict type-checking options
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src"],                    // Files to include in compilation
+  "exclude": ["node_modules"]            // Files to exclude
+}
