@@ -1,10 +1,16 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 import HomePage from './components/HomePage';
+import ResumePage from './components/ResumePage';
 
 function App() {
   return (
-    <div className="min-h-screen flex justify-center items-center bg-sageGreen">
-      <HomePage />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/resume" element={<ResumePage />} />
+      </Routes>
+    </Router>
   );
 }
 

@@ -5,7 +5,8 @@ module.exports = {
       colors: {
         sageGreen: '#547453',
         magnolia: '#F7F0F5',
-        englishViolet: '#4F345A'
+        englishViolet: '#4F345A',
+        lapisLazuli: '#05668D',
       },
       fontFamily: {
         zain: ['Zain'],
