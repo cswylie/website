@@ -6,7 +6,7 @@ const HomePage: React.FC = () => {
   const [showLinks, setShowLinks] = useState(false);
 
   return (
-    <div className= "min-h-screen flex justify-center items-center bg-sageGreen">
+    <div className= "min-h-screen flex justify-center items-center bg-fernGreen">
       <div className="text-center">
         {/* Name container with hover group */}
         <div className="inline-block group relative text-5xl font-Zain text-magnolia p-3">
@@ -36,14 +36,13 @@ const HomePage: React.FC = () => {
             >
               Resume
             </Link>
-            <a
-              href="https://www.linkedin.com/in/christian-wylie-593249265/"
-              target="_blank"
-              className="block text-2xl text-magnolia hover:underline opacity-0 animate-fade-in"
-              style={{ animationDelay: '0.6s', animationFillMode: 'forwards' }}
+            <Link 
+            to='/photography-artwork'
+            className='block text-2xl text-magnolia hover:underline opacity-0 animate-fade-in'
+            style={{ animationDelay: '0.6s', animationFillMode: 'forwards' }}
             >
-              LinkedIn
-            </a>
+              Photography & Artwork
+            </Link>
             <a
               href="https://github.com/cswylie"
               target="_blank"

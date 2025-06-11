@@ -3,10 +3,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        sageGreen: '#547453',
+        rust: '#ba3f1d',
         magnolia: '#F7F0F5',
-        englishViolet: '#4F345A',
-        lapisLazuli: '#05668D',
+        richBlack: '#040f0f',
+        fernGreen: '#588157',
+        calPolyGreen: '#2A3F2A'
       },
       fontFamily: {
         zain: ['Zain'],
