@@ -1,5 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    font-family: var(--font-main);
+  }
+  
+  .theme-fernGreen {
+    --bg-main: #588157;
+    --text-main: #F7F0F5;
+    --accent-main: #F7F0F5;
+    --text-secondary: #2e2e2e;
+    --font-main: 'Zain', 'sans-serif';
+  }
+  .theme-magnolia {
+    --bg-main: #F7F0F5;
+    --text-main: #2e2e2e;
+    --accent-main: #2e2e2e;
+    --text-secondary: #F7F0F5;
+    --font-main: 'Cutive', 'sans-serif';
+  }
+  .theme-dark {
+    --bg-main: #1a1a1a;
+    --text-main: #F7F0F5;
+  }
+}

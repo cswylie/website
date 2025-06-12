@@ -1,5 +1,10 @@
 module.exports = {
   content: ['./index.html', './src/**/*.{js,jsx,ts,tsx}'],
+  safelist: [
+    'theme-fernGreen',
+    'theme-magnolia',
+    'theme-dark',
+  ],
   theme: {
     extend: {
       colors: {
@@ -11,6 +16,7 @@ module.exports = {
       },
       fontFamily: {
         zain: ['Zain'],
+        cutive: ['Cutive']
       },
       animation: {
         'fade-in': 'fadeIn 2s ease-out forwards',
