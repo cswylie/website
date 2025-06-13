@@ -32,6 +32,7 @@ const HomePage: React.FC = () => {
               <option value="fernGreen">Fern Green</option>
               <option value="magnolia">Magnolia</option>
               <option value="dark">Dark</option>
+              <option value="rust">Rust</option>
             </select>
           </div>
         )}

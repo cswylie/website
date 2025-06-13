@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 
-export type Theme = 'fernGreen' | 'magnolia' | 'dark';
+export type Theme = 'fernGreen' | 'magnolia' | 'dark' | 'rust';
 
 interface ThemeContextType {
   theme: Theme;
@@ -18,7 +18,10 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ childre
 
   // Update document class and localStorage whenever theme changes
   useEffect(() => {
-    document.documentElement.className = '';
+    // Only get rid of the old theme classes, nothing else
+    document.documentElement.classList.forEach(cls => {
+      if (cls.startsWith('theme-')) document.documentElement.classList.remove(cls);
+    });
     document.documentElement.classList.add(`theme-${theme}`);
     localStorage.setItem('theme', theme);
   }, [theme]);

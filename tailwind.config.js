@@ -4,6 +4,7 @@ module.exports = {
     'theme-fernGreen',
     'theme-magnolia',
     'theme-dark',
+    'theme-rust',
   ],
   theme: {
     extend: {
