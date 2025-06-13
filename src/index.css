@@ -15,6 +15,7 @@
     --text-main: #F7F0F5;
     --accent-main: #F7F0F5;
     --text-secondary: #2e2e2e;
+    --text-third: #2A3F2A;
     --font-main: 'Zain', 'sans-serif';
   }
   .theme-magnolia {
@@ -22,6 +23,7 @@
     --text-main: #2e2e2e;
     --accent-main: #2e2e2e;
     --text-secondary: #F7F0F5;
+    --text-third: #9f9f9f;
     --font-main: 'Cutive', 'sans-serif';
   }
   .theme-dark {

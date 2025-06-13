@@ -1,20 +1,22 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import ThemeButton from './ThemeButton'; // Import the ThemeButton component
+
 const ResumePage: React.FC = () => {
   return (
-    <div className = "min-h-screen bg-fernGreen text-stone-700 font-Zain p-3">
-      <div className="flex flex-col bg-magnolia items-center max-w-4xl w-full mx-auto bg-opacity-100 p-8 rounded-lg shadow-lg">
+    <div className = "min-h-screen bg-[var(--bg-main)] text-[var(--text-secondary)] font-Zain p-3">
+      <div className="flex flex-col bg-[var(--accent-main)] items-center max-w-4xl w-full mx-auto bg-opacity-100 p-8 rounded-lg shadow-lg">
         <div className = "font-bold text-3xl font-Zain mt-6 p-4 opacity-0 animate-fade-in">
           <Link to="/" 
-            className="hover:text-fernGreen"
+            className="hover:text-[var(--bg-main)]"
             style={{ animationDelay: '0.1s', animationFillMode: 'forwards' }}
             >
             Christian Wylie
           </Link>
         </div>
         {/* Fading in line */}
-        <div className="h-px w-80 bg-stone-700 mx-auto opacity-0 animate-fade-in"
+        <div className="h-px w-80 bg-[var(--text-secondary)] mx-auto opacity-0 animate-fade-in"
           style={{ animationDelay: '0.2s', animationFillMode: 'forwards' }}
         ></div>
         <div 
@@ -23,20 +25,20 @@ const ResumePage: React.FC = () => {
           <a
             href="https://www.linkedin.com/in/christian-wylie-593249265/"
             target="_blank"
-            className="hover:text-fernGreen"
+            className="hover:text-[var(--bg-main)]"
           >
             LinkedIn
           </a>
           <a
             href="https://github.com/cswylie"
             target="_blank"
-            className="hover:text-fernGreen"
+            className="hover:text-[var(--bg-main)]"
           >
             GitHub
           </a>
         </div>
         {/* Fading in line */}
-        <div className="h-px w-80 bg-stone-700 mx-auto opacity-0 animate-fade-in"
+        <div className="h-px w-80 bg-[var(--text-secondary)] mx-auto opacity-0 animate-fade-in"
           style={{ animationDelay: '0.4s', animationFillMode: 'forwards' }}
         ></div>
         <div className="text-lg p-4 animate-fade-in opacity-0"
@@ -166,6 +168,8 @@ const ResumePage: React.FC = () => {
           </ul>
         </div>
       </div>
+      {/* Theme selector button */}
+      <ThemeButton />
     </div>
   )
 }
