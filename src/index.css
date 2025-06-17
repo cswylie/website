@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cutive&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Federo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cutive&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Federo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lacquer&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -11,37 +11,37 @@
   body {
     font-family: var(--font-main);
   }
-  
+
   .theme-fernGreen {
     --bg-main: #588157;
-    --text-main: #F7F0F5;
-    --accent-main: #F7F0F5;
+    --text-main: #f7f0f5;
+    --accent-main: #f7f0f5;
     --text-secondary: #2e2e2e;
     --text-third: #2d442d;
-    --font-main: 'Zain', 'sans-serif';
+    --font-main: "Zain", "sans-serif";
   }
   .theme-magnolia {
-    --bg-main: #F7F0F5;
+    --bg-main: #f7f0f5;
     --text-main: #2e2e2e;
     --accent-main: #2e2e2e;
     --text-secondary: #ded5dc;
     --text-third: #9f9f9f;
-    --font-main: 'Cutive', 'sans-serif';
+    --font-main: "Cutive", "sans-serif";
   }
   .theme-dark {
     --bg-main: #2e2e2e;
-    --text-main: #F7F0F5;
-    --accent-main: #F7F0F5;
+    --text-main: #f7f0f5;
+    --accent-main: #f7f0f5;
     --text-secondary: #5b5b5b;
     --text-third: #555555;
-    --font-main: 'Federo', 'sans-serif'; 
+    --font-main: "Federo", "sans-serif";
   }
   .theme-rust {
     --bg-main: #ba3f1d;
-    --text-main: #FEFDFF;
-    --accent-main: #FEFDFF;
-    --text-secondary: #3A3335;
+    --text-main: #fefdff;
+    --accent-main: #fefdff;
+    --text-secondary: #3a3335;
     --text-third: #7a2e1d;
-    --font-main: 'Lacquer', 'sans-serif';
+    --font-main: "Lacquer", "sans-serif";
   }
 }

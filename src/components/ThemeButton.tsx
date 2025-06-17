@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from "react";
 
-import { useTheme } from '../ThemeContext'; // Adjust the import path as necessary
-import type {Theme} from '../ThemeContext'; // Import the Theme type
-
+import { useTheme } from "../ThemeContext"; // Adjust the import path as necessary
+import type { Theme } from "../ThemeContext"; // Import the Theme type
 
 const HomePage: React.FC = () => {
   const [showThemeSelector, setShowThemeSelector] = useState(false);
@@ -23,9 +22,9 @@ const HomePage: React.FC = () => {
           <div className="mt-2">
             <select
               value={theme}
-              onChange={
-                (e) => {setTheme(e.target.value as Theme);
-                setShowThemeSelector(false); 
+              onChange={(e) => {
+                setTheme(e.target.value as Theme);
+                setShowThemeSelector(false);
               }}
               className="text-sm text-[var(--text-secondary)] bg-inherit p-1 rounded border"
             >
@@ -38,7 +37,7 @@ const HomePage: React.FC = () => {
         )}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default HomePage
+export default HomePage;

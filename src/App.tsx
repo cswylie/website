@@ -1,10 +1,11 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import HomePage from './components/HomePage';
-import ResumePage from './components/ResumePage';
-import PhotoPage from './components/PhotoPage';
+import HomePage from "./components/HomePage";
+import ResumePage from "./components/ResumePage";
+import PhotoPage from "./components/PhotoPage";
 
-import { ThemeProvider } from './ThemeContext';
+import { ThemeProvider } from "./ThemeContext";
 
 function App() {
   return (
