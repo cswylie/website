@@ -14,18 +14,18 @@ const HomePage: React.FC = () => {
           christian wylie
 
           {/* Show button on hover */}
-          {!showLinks && (
+          {/* {!showLinks && (
             <button
               onClick={() => setShowLinks(true)}
               className="mt-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-[var(--accent-main)] text-[var(--text-secondary)] text-sm px-4 py-2 rounded shadow absolute left-1/2 -translate-x-1/2 top-full"
             >
             View Links
             </button>
-          )}
+          )} */}
         </div>
         {/* Show links when button is clicked */}
-        {showLinks && (
-          <div className="space-y-2 mt-5">
+        {/* {showLinks && ( */}
+          <div className="space-y-2 mt-2">
             {/* Fading in line */}
             <div className="h-px w-48 bg-[var(--accent-main)] mx-auto opacity-0 animate-fade-in"></div>
 
@@ -53,7 +53,7 @@ const HomePage: React.FC = () => {
               GitHub
             </a>
           </div>
-        )}
+        {/* )} */}
       </div>
 
       {/* Theme selector button */}
