@@ -55,17 +55,17 @@ const PhotoPage: React.FC = () => {
           <img
             src={images[currentIndex]}
             alt={`Slide ${currentIndex + 1}`}
-            className="max-h-[32rem] object-contain rounded-lg shadow-lg"
+            className="max-h-[32rem] object-contain rounded-lg shadow-lg sm:px-0 sm:max-w-full"
           />
           <button
             onClick={prevImage}
-            className="text-3xl text-[var(--text-main)] absolute left-0 -translate-x-full top-1/2 transform -translate-y-1/2 bg-opacity-0 px-4 py-2 hover:text-4xl"
+            className="text-3xl text-[var(--text-main)] absolute left-2 sm:left-0 sm:-translate-x-full top-1/2 transform -translate-y-1/2 bg-opacity-0 px-4 py-2 hover:text-4xl"
           >
             ‹
           </button>
           <button
             onClick={nextImage}
-            className="text-3xl text-[var(--text-main)] absolute right-0 translate-x-full top-1/2 transform -translate-y-1/2 bg-opacity-0 px-4 py-2 hover:text-4xl"
+            className="text-3xl text-[var(--text-main)] absolute right-2 sm:right-0 sm:translate-x-full top-1/2 transform -translate-y-1/2 bg-opacity-0 px-4 py-2 hover:text-4xl"
           >
             ›
           </button>

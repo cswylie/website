@@ -17,7 +17,7 @@ module.exports = {
   ],
   rules: {
     // You can customize rules here
-    'max-len': ['warn', { code: 80, ignoreUrls: true, ignoreStrings: true }]
+    "max-len": ["warn", { code: 80, ignoreUrls: true, ignoreStrings: true }],
   },
   settings: {
     react: {
