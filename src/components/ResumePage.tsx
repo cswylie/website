@@ -67,10 +67,10 @@ const ResumePage: React.FC = () => {
         >
           I spend a lot of my free time writing, playing, and practicing music,
           all of which involve either guitar or trumpet. I&apos;ve been playing
-          guitar for about 2 years, and I&apos;ve been playing trumpet, mostly
-          jazz, for about 10 years. I also love the outdoors, and mountain bike,
-          hike, and rock climb as often as I can. I dabble a little bit in
-          amateur film photography, and I also have a bit of experience in
+          guitar for about 2 years, and I&apos;ve been playing jazz trumpet for
+          about 10 years. I also love the outdoors, and mountain bike,
+          hike, and rock climb as often as I can. I dabble in
+          amateur film photography, and I also have some experience in
           Blender, which I&apos;ll use every so often to make artwork. I love to
           bake, and I&apos;ll find myself trying new recipes about once a week.
         </div>
