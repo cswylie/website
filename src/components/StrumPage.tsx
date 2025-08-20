@@ -13,8 +13,9 @@ const StrumPage: React.FC = () => {
 
   // Actually sends the message to the backend
   const sendMessagetoStrum = async (message: string, history: { question: string; answer: string }[]) => {
+    const BACKEND_URL = 'https://strum-backend.onrender.com/query';
     // console.log(message, history);
-    const response = await fetch('http://localhost:3000/api/v0/sendMessage', {
+    const response = await fetch(`${BACKEND_URL}`, {
       method: 'POST',
       headers: {
           'Content-Type': 'application/json',
