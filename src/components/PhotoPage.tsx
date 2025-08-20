@@ -20,8 +20,8 @@ const PhotoPage: React.FC = () => {
 
   const nextImage = () => {
     setCurrentIndex((currentIndex + 1) % images.length);
-    console.log(currentIndex);
-    console.log(images.length);
+    // console.log(currentIndex);
+    // console.log(images.length);
   };
 
   return (
