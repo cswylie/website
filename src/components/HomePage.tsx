@@ -46,19 +46,19 @@ const HomePage: React.FC = () => {
           >
             Photography & Artwork
           </Link>
-          <Link
+          {/* <Link
             to="/strum"
             className="block text-2xl text-[var(--text-main)] hover:underline opacity-0 animate-fade-in"
             style={{ animationDelay: "0.9s", animationFillMode: "forwards" }}
           >
             Strum
-          </Link>
+          </Link> */}
           <a
             href="https://github.com/cswylie"
             target="_blank"
             rel="noreferrer"
             className="block text-2xl text-[var(--text-main)] hover:underline opacity-0 animate-fade-in"
-            style={{ animationDelay: "1.2s", animationFillMode: "forwards" }}
+            style={{ animationDelay: "0.9s", animationFillMode: "forwards" }}
           >
             GitHub
           </a>
